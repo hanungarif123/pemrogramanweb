@@ -1,1 +1,1 @@
-<a href="http://hanung.infinityfreeapp.com">situs resmi</a>
+<a href="http://hanung.infinityfreeapp.com"></a>
