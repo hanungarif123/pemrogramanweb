@@ -1,1 +1,1 @@
-<p>Lihat <a href="https://ara.com">situs resmi ARA</a>.</p>
+<p>Lihat <a href="http://hanung.infinityfreeapp.com">situs resmi</a>.</p>
