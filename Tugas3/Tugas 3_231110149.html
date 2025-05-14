@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hanung Arif - Product Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #0f0f1a;
+      color: white;
+      background: url("background.jpg") no-repeat center/cover;
+    }
+
+    .container {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid #00f0ff;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      color: #fff;
+    }
+
+    h2 {
+      font-weight: 500;
+      font-size: 25px;
+      color: #ccc;
+    }
+
+    p.tagline {
+      font-style: italic;
+      margin: 10px 0 30px;
+      color: #bbb;
+    }
+
+    .speciality {
+      max-width: 800px;
+      margin: 0 auto 60px;
+      line-height: 1.6;
+    }
+
+    .section-title {
+      font-size: 30px;
+      margin-bottom: 15px;
+      color: #fff;
+      font-weight: bold;
+      text-shadow: 0 0 10px #ff00ff;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.6);
+      border: 1px solid #333;
+      border-radius: 15px;
+      width: 300px;
+      padding: 25px;
+      text-align: ce;
+      box-shadow: 0 0 20px #00f0ff80;
+    }
+
+    .card h3 {
+      font-size: 25px;
+      margin-bottom: 10px;
+      color: #00f0ff;
+    }
+
+    .card ul {
+      padding-left: 20px;
+    }
+
+    .card li {
+      margin-bottom: 8px;
+      color: #ddd;
+    }
+
+    @media(max-width: 768px) {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .svgicon {
+        width: 39px;
+        height: 39px;
+        border-radius: 100px;
+        background-color: #212122;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+      }
+      .svgicon path {
+        fill: none;
+        stroke: #00ff08;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .svgline {
+        width: 37px;
+        height: 3px;
+        margin-top: 21px;
+        fill: none;
+      }
+      .svgline path {
+        stroke: #1534a4;
+        stroke-width: 3;
+        stroke-linecap: round;
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="fotoprofil.png" alt="Hanung Arif" class="profile-pic">
+    <h1>Hanung Arif</h1>
+    <h2>Product Designer</h2>
+    <p class="tagline">Turning complexity into simplicity</p>
+
+    <div class="speciality">
+      <div class="section-title">Speciality</div>
+      <p>
+        Web Developers are experts in web security (HTTPS, JWT), PWA development (native-like apps),
+        and performance optimization (caching, lazy loading) to create secure, fast, and responsive
+        apps on all devices.
+      </p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <svg class="svgicon" viewbox="0 0 50 50">
+          <path 
+            d="M12 9v3.75m0-10.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.75c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.57-.598-3.75h-.152c-3.196 0-6.1-1.25-8.25-3.286Zm0 13.036h.008v.008H12v-.008Z"
+            transform="translate(10, 10) scale(1.2)"
+        />
+        </svg>
+        <h3>Web Security</h3>
+        <svg class="svgline">
+          <path d="M0 1.5H36.5" />
+        </svg>
+        <ul>
+          <li>Fokus: Keamanan aplikasi web (proteksi dari serangan).</li>
+          <li>Konsep Penting: HTTPS, OWASP Top 10 (SQL Injection, XSS), JWT, OAuth</li>
+        </ul>
+      </div>
+      <div class="card">
+        <svg class="svgicon" viewbox="0 0 50 50">
+          <path
+            d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25"
+            transform="translate(10, 10) scale(1.2)"
+          />
+        </svg>
+        <h3>Mobile & PWA Development</h3>
+        <svg class="svgline">
+          <path d="M0 1.5H36.5" />
+        </svg>
+        <ul>
+          <li>Fokus: Web yang bekerja seperti aplikasi mobile.</li>
+          <li>Teknologi: Progressive Web Apps (PWA), React Native, Flutter (hybrid)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <svg class="svgicon" viewBox="0 0 50 50">
+          <path
+            d="M9.348 14.652a3.75 3.75 0 0 1 0-5.304m5.304 0a3.75 3.75 0 0 1 0 5.304m-7.425 2.121a6.75 6.75 0 0 1 0-9.546m9.546 0a6.75 6.75 0 0 1 0 9.546M5.106 18.894c-3.808-3.807-3.808-9.98 0-13.788m13.788 0c3.808 3.807 3.808 9.98 0 13.788M12 12h.008v.008H12V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+            transform="translate(10, 10) scale(1.2)"
+          />
+        </svg>
+        <h3>Web Performance Optimization</h3>
+        <svg class="svgline">
+          <path d="M0 1.5H36.5" />
+        </svg>
+        <ul>
+          <li>Fokus: Kecepatan dan efisiensi website.</li>
+          <li>Teknik: Caching, lazy loading, CDN, optimasi gambar.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
